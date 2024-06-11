@@ -1,0 +1,14 @@
+site:
+  title: Rancher documentation
+  url: /
+  start_page: main@rp-antora::rancher-manager.adoc
+
+content:
+  sources:
+  - url: https://github.com/LucasSaintarbor/rp-antora
+    branches: [main]
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
