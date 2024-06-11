@@ -1,3 +1,6 @@
 * xref:rancher-manager.adoc[What is Rancher?]
-* Overview
+* Getting Started
 ** xref:overview.adoc[Overview]
+** xref:getting-started/quick-start-guides/quick-start-guides.adoc[Quick Start Guides]
+*** xref:getting-started/deploy-workloads/deploy-workloads.adoc[Deploying Workloads]
+*** xref:getting-started/deploy-workloads/workload-ingress.adoc[Workload with Ingress Quick Start]
