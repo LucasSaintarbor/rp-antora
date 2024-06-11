@@ -2,6 +2,8 @@
 
 Testing Rancher docs on Antora.
 
+Run `npx antora --fetch antora-playbook.yml`
+
 Notes about Antora:
 
 - Antora uses AsciiDoctor to convert AsciiDoc to HTML.
