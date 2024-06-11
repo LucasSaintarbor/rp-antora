@@ -1,0 +1,7 @@
+name: rp-antora
+title: Rancher documentation
+version: main
+display_version: 'main'
+start_page: ROOT:rancher-manager.adoc
+nav:
+- modules/ROOT/nav.adoc
