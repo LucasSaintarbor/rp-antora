@@ -1,3 +1,3 @@
 * xref:rancher-manager.adoc[What is Rancher?]
-* Test
-* xref:overview.adoc[Overview]
+* Overview
+** xref:overview.adoc[Overview]
