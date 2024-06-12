@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Overview :: Rancher documentation</title>
+    <title>What is Rancher? :: Rancher documentation</title>
+    <meta name="description" content="Rancher adds significant value on top of Kubernetes: managing hundreds of clusters from one interface, centralizing RBAC, enabling monitoring and alerting. Read more.">
     <meta name="generator" content="Antora 3.1.7">
     <link rel="stylesheet" href="../../_/css/site.css">
   </head>
@@ -47,7 +48,7 @@
   </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="rp-antora" data-version="main">
+<div class="nav-container" data-component="rp-antora" data-version="latest">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
@@ -57,14 +58,14 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="rancher-manager.html">What is Rancher?</a>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <span class="nav-text">Getting Started</span>
 <ul class="nav-list">
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="overview.html">Overview</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -132,71 +133,37 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="rancher-manager.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="rancher-manager.html">Rancher Prime documentation</a></li>
-    <li>Getting Started</li>
-    <li><a href="overview.html">Overview</a></li>
+    <li><a href="rancher-manager.html">What is Rancher?</a></li>
   </ul>
 </nav>
-<div class="edit-this-page"><a href="https://github.com/LucasSaintarbor/rp-antora/edit/main/modules/ROOT/pages/overview.adoc">Edit this Page</a></div>
+<div class="edit-this-page"><a href="https://github.com/LucasSaintarbor/rp-antora/edit/main/modules/ROOT/pages/rancher-manager.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Overview</h1>
-<div id="preamble">
-<div class="sectionbody">
+<h1 class="page">What is Rancher?</h1>
 <div class="paragraph">
-<p><head><link rel="canonical" href="https://ranchermanager.docs.rancher.com/getting-started/overview"></link></head></p>
+<p><head><link rel="canonical" href="https://ranchermanager.docs.rancher.com"></link></head></p>
 </div>
 <div class="paragraph">
-<p>Rancher is a container management platform built for organizations that deploy containers in production. Rancher makes it easy to run Kubernetes everywhere, meet IT requirements, and empower DevOps teams.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_run_kubernetes_everywhere"><a class="anchor" href="#_run_kubernetes_everywhere"></a>Run Kubernetes Everywhere</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Kubernetes has become the container orchestration standard. Most cloud and virtualization vendors now offer it as standard infrastructure. Rancher users have the choice of creating Kubernetes clusters with Rancher Kubernetes Engine (RKE) or cloud Kubernetes services, such as GKE, AKS, and EKS. Rancher users can also import and manage their existing Kubernetes clusters created using any Kubernetes distribution or installer.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_meet_it_requirements"><a class="anchor" href="#_meet_it_requirements"></a>Meet IT Requirements</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Rancher supports centralized authentication, access control, and monitoring for all Kubernetes clusters under its control. For example, you can:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Use your Active Directory credentials to access Kubernetes clusters hosted by cloud vendors, such as GKE.</p>
-</li>
-<li>
-<p>Setup and enforce access control and security policies across all users, groups, projects, clusters, and clouds.</p>
-</li>
-<li>
-<p>View the health and capacity of your Kubernetes clusters from a single-pane-of-glass.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_empower_devops_teams"><a class="anchor" href="#_empower_devops_teams"></a>Empower DevOps Teams</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Rancher provides an intuitive user interface for DevOps engineers to manage their application workload. The user does not need to have in-depth knowledge of Kubernetes concepts to start using Rancher. Rancher catalog contains a set of useful DevOps tools. Rancher is certified with a wide selection of cloud native ecosystem products, including, for example, security tools, monitoring systems, container registries, and storage and networking drivers.</p>
+<p>Rancher is a Kubernetes management tool to deploy and run clusters anywhere and on any provider.</p>
 </div>
 <div class="paragraph">
-<p>The following figure illustrates the role Rancher plays in IT and DevOps organizations. Each team deploys their applications on the public or private clouds they choose. IT administrators gain visibility and enforce policies across all users, clusters, and clouds.</p>
+<p>Rancher can provision Kubernetes from a hosted provider, provision compute nodes and then install Kubernetes onto them, or import existing Kubernetes clusters running anywhere.</p>
 </div>
+<div class="paragraph">
+<p>Rancher adds significant value on top of Kubernetes, first by centralizing authentication and role-based access control (RBAC) for all of the clusters, giving global admins the ability to control cluster access from one location.</p>
 </div>
+<div class="paragraph">
+<p>It then enables detailed monitoring and alerting for clusters and their resources, ships logs to external providers, and integrates directly with Helm via the Application Catalog. If you have an external CI/CD system, you can plug it into Rancher, but if you don&#8217;t, Rancher even includes Fleet to help you automatically deploy and upgrade workloads.</p>
+</div>
+<div class="paragraph">
+<p>Rancher is a <em>complete</em> container management platform for Kubernetes, giving you the tools to successfully run Kubernetes anywhere.</p>
 </div>
 </article>
   </div>
