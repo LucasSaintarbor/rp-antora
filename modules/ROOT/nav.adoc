@@ -4,3 +4,11 @@
 ** xref:getting-started/quick-start-guides/quick-start-guides.adoc[Quick Start Guides]
 *** xref:getting-started/deploy-workloads/deploy-workloads.adoc[Deploying Workloads]
 *** xref:getting-started/deploy-workloads/workload-ingress.adoc[Workload with Ingress Quick Start]
+* How-to Guides
+* Reference Guides
+* Integrations in Rancher
+* FAQ
+* Troubleshooting
+* Rancher Kubernetes API
+* Contributing to Rancher
+* Glossary
