@@ -1,7 +1,7 @@
-name: rp-antora
-title: Rancher documentation
+name: rancher-prime
+title: Rancher Prime documentation
 version: main
-display_version: 'main'
+display_version: 'v2.9'
 start_page: ROOT:rancher-manager.adoc
 nav:
 - modules/ROOT/nav.adoc
