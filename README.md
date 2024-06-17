@@ -21,3 +21,6 @@ What Anotora Does:
 1. Merge with UI theme and UI customizations.
 1. Creates a search index.
 1. Creates an output folder with a static site.
+
+# How to Organize Your Content Files
+
