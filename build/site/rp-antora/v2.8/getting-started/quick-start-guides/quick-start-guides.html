@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Deploying Workloads :: Rancher documentation</title>
+    <title>Rancher Deployment Quick Start Guides :: Rancher documentation</title>
     <meta name="generator" content="Antora 3.1.7">
     <link rel="stylesheet" href="../../../../_/css/site.css">
   </head>
@@ -47,7 +47,7 @@
   </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="rp-antora" data-version="main">
+<div class="nav-container" data-component="rp-antora" data-version="v2.8">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
@@ -67,15 +67,15 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="../../overview.html">Overview</a>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../quick-start-guides/quick-start-guides.html">Quick Start Guides</a>
+    <a class="nav-link" href="quick-start-guides.html">Quick Start Guides</a>
 <ul class="nav-list">
-  <li class="nav-item is-current-page" data-depth="3">
-    <a class="nav-link" href="deploy-workloads.html">Deploying Workloads</a>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../deploy-workloads/deploy-workloads.html">Deploying Workloads</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="workload-ingress.html">Workload with Ingress Quick Start</a>
+    <a class="nav-link" href="../deploy-workloads/workload-ingress.html">Workload with Ingress Quick Start</a>
   </li>
 </ul>
   </li>
@@ -113,17 +113,17 @@
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
     <span class="title">Rancher Prime documentation</span>
-    <span class="version">v2.9</span>
+    <span class="version">v2.8</span>
   </div>
   <ul class="components">
     <li class="component is-current">
-      <div class="title"><a href="../../rancher-manager.html">Rancher Prime documentation</a></div>
+      <div class="title"><a href="../../../main/rancher-manager.html">Rancher Prime documentation</a></div>
       <ul class="versions">
-        <li class="version is-current is-latest">
-          <a href="../../rancher-manager.html">v2.9</a>
+        <li class="version is-latest">
+          <a href="../../../main/rancher-manager.html">v2.9</a>
         </li>
-        <li class="version">
-          <a href="../../../v2.8/rancher-manager.html">v2.8</a>
+        <li class="version is-current">
+          <a href="../../rancher-manager.html">v2.8</a>
         </li>
       </ul>
     </li>
@@ -135,35 +135,52 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="../../rancher-manager.html" class="home-link"></a>
+  <a href="../../../main/rancher-manager.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="../../rancher-manager.html">Rancher Prime documentation</a></li>
     <li>Getting Started</li>
-    <li><a href="../quick-start-guides/quick-start-guides.html">Quick Start Guides</a></li>
-    <li><a href="deploy-workloads.html">Deploying Workloads</a></li>
+    <li><a href="quick-start-guides.html">Quick Start Guides</a></li>
   </ul>
 </nav>
 <div class="page-versions">
-  <button class="version-menu-toggle" title="Show other versions of page">v2.9</button>
+  <button class="version-menu-toggle" title="Show other versions of page">v2.8</button>
   <div class="version-menu">
-    <a class="version is-current" href="deploy-workloads.html">v2.9</a>
-    <a class="version" href="../../../v2.8/getting-started/deploy-workloads/deploy-workloads.html">v2.8</a>
+    <a class="version" href="../../../main/getting-started/quick-start-guides/quick-start-guides.html">v2.9</a>
+    <a class="version is-current" href="quick-start-guides.html">v2.8</a>
   </div>
 </div>
-<div class="edit-this-page"><a href="https://github.com/LucasSaintarbor/rp-antora/edit/main/modules/ROOT/pages/getting-started/deploy-workloads/deploy-workloads.adoc">Edit this Page</a></div>
+<div class="edit-this-page"><a href="https://github.com/LucasSaintarbor/rp-antora/edit/v2.8/modules/ROOT/pages/getting-started/quick-start-guides/quick-start-guides.adoc">Edit this Page</a></div>
 </div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Deploying Workloads</h1>
+<h1 class="page">Rancher Deployment Quick Start Guides</h1>
 <div class="paragraph">
-<p><head><link rel="canonical" href="https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides/deploy-workloads"></link></head></p>
+<p><head><link rel="canonical" href="https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides"></link></head></p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<div class="title">Test</div>
+<div class="paragraph">
+<p>Test</p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>These guides walk you through the deployment of an application, including how to expose the application for use outside of the cluster.</p>
+<p>Use this section of the docs to jump start your deployment and testing of Rancher 2.x. It contains instructions for a simple Rancher setup and some common use cases. We plan on adding more content to this section in the future.</p>
+</div>
+<div class="paragraph">
+<p>We have Quick Start Guides for:</p>
 </div>
 </article>
   </div>
