@@ -1,11 +1,7 @@
-* xref:rancher-manager.adoc[What is Rancher?]
-* Getting Started
-** xref:overview.adoc[Overview]
-** xref:getting-started/quick-start-guides/quick-start-guides.adoc[Quick Start Guides]
-*** xref:getting-started/deploy-workloads/deploy-workloads.adoc[Deploying Workloads]
-*** xref:getting-started/deploy-workloads/workload-ingress.adoc[Workload with Ingress Quick Start]
 * Release Notes
 * About Rancher
+** xref:about-rancher/rancher-manager.adoc[What is Rancher?]
+** xref:about-rancher/overview.adoc[What is Rancher?]
 * Prime Installation and Upgrades
 * Rancher Administration
 * Cluster Administration
