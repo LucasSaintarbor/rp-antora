@@ -1,7 +1,8 @@
 * Release Notes
 * About Rancher
 ** xref:about-rancher/rancher-manager.adoc[What is Rancher?]
-** xref:about-rancher/overview.adoc[What is Rancher?]
+** xref:about-rancher/prime.adoc[Rancher Prime]
+** xref:about-rancher/overview.adoc[Overview]
 * Prime Installation and Upgrades
 * Rancher Administration
 * Cluster Administration
