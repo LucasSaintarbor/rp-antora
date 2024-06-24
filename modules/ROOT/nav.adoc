@@ -1,15 +1,39 @@
+.Test Compose
+* xref:parent.adoc[]
++
+--
+include::partial$children.adoc[]
+--
+
+.Test
 * Release Notes
+* Test
 * About Rancher
 ** xref:about-rancher/rancher-manager.adoc[What is Rancher?]
 ** xref:about-rancher/prime.adoc[Rancher Prime]
 ** xref:about-rancher/overview.adoc[Overview]
+** xref:about-rancher/rancher-architecture/rancher-manager-architecture.adoc[Rancher Architecture]
+*** xref:about-rancher/rancher-architecture/rancher-server-and-components.adoc[Rancher Server and Components]
+*** xref:about-rancher/rancher-architecture/communicating-with-downstream-user-clusters.adoc[Communicating with Downstream User Clusters]
+*** xref:about-rancher/rancher-architecture/architecture-recommendations.adoc[Architecture Recommendations]
+** xref:about-rancher/kubernetes-concepts.adoc[Kubernetes Concepts]
 * Prime Installation and Upgrades
-* Rancher Administration
+** xref:prime-installation-and-upgrade/installation-requirements.adoc[Installation Requirements]
+* xref:rancher-administration/authentication-permissions-and-global-configuration.adoc[Rancher Administration]
+** xref:[]
 * Cluster Administration
+** xref:[]
 * Security
+** xref:[]
 * Downstream Hosted Cluster Setup
+** xref:[]
 * Integrations
+** xref:[]
 * Observability
+** xref:[]
 * API
+** xref:[]
 * Troubleshooting
+** xref:[]
 * Contributing to Rancher
+** xref:[]

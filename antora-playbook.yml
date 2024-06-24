@@ -5,12 +5,10 @@ site:
 
 content:
     sources:
-    - url: ./
-  # sources:
-  # - url: https://github.com/LucasSaintarbor/rp-antora
-  #  branches: [main]
-  #- url: https://github.com/LucasSaintarbor/rp-antora
-  #  branches: [v2.8] */
+      - url: https://github.com/rancher-sandbox/prime-docs
+      branches: [main]
+      - url: https://github.com/jhkrug/kw-site-builder
+      branches: [main]
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
