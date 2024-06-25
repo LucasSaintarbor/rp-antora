@@ -1,0 +1,45 @@
+= About Provisioning Drivers
+
+Drivers in Rancher allow you to manage which providers can be used to deploy xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/set-up-clusters-from-hosted-kubernetes-providers.adoc[hosted Kubernetes clusters] or xref:../../launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/use-new-nodes-in-an-infra-provider.adoc[nodes in an infrastructure provider] to allow Rancher to deploy and manage Kubernetes.
+
+=== Rancher Drivers
+
+With Rancher drivers, you can enable/disable existing built-in drivers that are packaged in Rancher. Alternatively, you can add your own driver if Rancher has not yet implemented it.
+
+There are two types of drivers within Rancher:
+
+* <<cluster-drivers,Cluster Drivers>>
+* <<node-drivers,Node Drivers>>
+
+=== Cluster Drivers
+
+Cluster drivers are used to provision xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/set-up-clusters-from-hosted-kubernetes-providers.adoc[hosted Kubernetes clusters], such as GKE, EKS, AKS, etc.. The availability of which cluster driver to display when creating a cluster is defined based on the cluster driver's status. Only `active` cluster drivers will be displayed as an option for creating clusters for hosted Kubernetes clusters. By default, Rancher is packaged with several existing cluster drivers, but you can also create custom cluster drivers to add to Rancher.
+
+By default, Rancher has activated several hosted Kubernetes cloud providers including:
+
+* xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/eks.adoc[Amazon EKS]
+* xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/gke.adoc[Google GKE]
+* xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/aks.adoc[Azure AKS]
+
+There are several other hosted Kubernetes cloud providers that are disabled by default, but are packaged in Rancher:
+
+* xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/alibaba.adoc[Alibaba ACK]
+* xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/huawei.adoc[Huawei CCE]
+* xref:../../kubernetes-clusters-in-rancher-setup/set-up-clusters-from-hosted-kubernetes-providers/tencent.adoc[Tencent]
+
+=== Node Drivers
+
+Node drivers are used to provision hosts, which Rancher uses to launch and manage Kubernetes clusters. A node driver is the same as a https://docs.docker.com/machine/drivers/[Docker Machine driver]. The availability of which node driver to display when creating node templates is defined based on the node driver's status. Only `active` node drivers will be displayed as an option for creating node templates. By default, Rancher is packaged with many existing Docker Machine drivers, but you can also create custom node drivers to add to Rancher.
+
+If there are specific node drivers that you don't want to show to your users, you would need to de-activate these node drivers.
+
+Rancher supports several major cloud providers, but by default, these node drivers are active and available for deployment:
+
+* xref:../../launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/create-an-amazon-ec2-cluster.adoc[Amazon EC2]
+* xref:../../launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/create-an-azure-cluster.adoc[Azure]
+* xref:../../launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/create-a-digitalocean-cluster.adoc[Digital Ocean]
+* xref:../../launch-kubernetes-with-rancher/use-new-nodes-in-an-infra-provider/vsphere/vsphere.adoc[vSphere]
+
+There are several other node drivers that are disabled by default, but are packaged in Rancher:
+
+* link:../../../../integrations-in-rancher/harvester/overview.adoc#harvester-node-driver/[Harvester], available as of Rancher v2.6.1

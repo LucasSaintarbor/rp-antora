@@ -1,0 +1,6 @@
+= Rancher Backup Configuration Reference
+
+* xref:backup-configuration.adoc[Backup configuration]
+* xref:restore-configuration.adoc[Restore configuration]
+* xref:storage-configuration.adoc[Storage location configuration]
+* xref:examples.adoc[Example Backup and Restore Custom Resources]

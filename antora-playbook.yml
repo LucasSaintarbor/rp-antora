@@ -1,10 +1,11 @@
 site:
   title: Rancher documentation
   url: /
-  start_page: main@rp-antora::about-rancher/rancher-manager.adoc
+  start_page: main@rp-antora::rancher-manager.adoc
 
 content:
     sources:
+    # - url: ./
     - url: https://github.com/LucasSaintarbor/rp-antora
       branches: [main, v2.8]
     - url: https://github.com/jhkrug/kw-ad
