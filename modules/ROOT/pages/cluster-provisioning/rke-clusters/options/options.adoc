@@ -1,0 +1,3 @@
+= RKE Cluster Configuration
+
+This page has moved xref:../../../reference-guides/cluster-configuration/rancher-server-configuration/rke1-cluster-configuration.adoc[here.]

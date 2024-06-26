@@ -1,0 +1,3 @@
+= Single Node Rancher in Docker
+
+The following docs will discuss xref:http-proxy-configuration.adoc[HTTP proxy configuration] and xref:advanced-options.adoc[advanced options] for Docker installs.
