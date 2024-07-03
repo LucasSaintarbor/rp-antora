@@ -7,7 +7,7 @@ content:
     sources:
     # - url: ./
     - url: https://github.com/LucasSaintarbor/rp-antora
-      # branches: [main, v2.8]
+      branches: [v2.8]
     - url: https://github.com/jhkrug/kw-ad
       branches: [main]
 ui:
