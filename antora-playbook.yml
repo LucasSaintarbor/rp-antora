@@ -11,6 +11,9 @@ content:
       # branches: [main, v2.8]
     - url: https://github.com/jhkrug/kw-ad
       branches: [main]
+asciidoc:
+  extensions:
+  - '@asciidoctor/tabs'
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
