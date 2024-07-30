@@ -1,0 +1,34 @@
+= Test
+
+. Test
+. Test
+
+[tabs]
+======
+Tab A::
++
+. Test
+. Test
+
+Tab B::
++
+. Test
+. Test
+======
+
+[start=3]
+. Test
+
+[tabs]
+======
+Tab A::
++
+. Test
+. Test
+
+Tab B::
++
+. Test
+. Test
+======
+

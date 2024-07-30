@@ -1,3 +1,4 @@
+* xref:tabs.adoc[tabs-test]
 .Test
 * xref:security/security-scan/security-scan.adoc[security-scan]
 * xref:reference-guides/user-settings/user-preferences.adoc[user-preferences]
