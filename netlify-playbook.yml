@@ -12,11 +12,13 @@ content:
       branches: [main]
     - url: https://github.com/LucasSaintarbor/rke2-ad
       branches: [main]
+
+ui:
+  bundle:
+    url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
+    snapshot: true
+  supplemental_files: ./susecom-2023
+
 asciidoc:
   extensions:
   - '@asciidoctor/tabs'
-ui:
-
-  bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-    snapshot: true
