@@ -1,6 +1,0 @@
-= Prometheus Federator Guides
-
-* xref:enable-prometheus-federator.adoc[Enable Prometheus Operator]
-* xref:uninstall-prometheus-federator.adoc[Uninstall Prometheus Operator]
-* xref:customize-grafana-dashboards.adoc[Customize Grafana Dashboards]
-* xref:set-up-workloads.adoc[Set Up Workloads]

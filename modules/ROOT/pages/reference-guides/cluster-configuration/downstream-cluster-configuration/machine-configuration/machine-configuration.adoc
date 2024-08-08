@@ -1,3 +1,0 @@
-= Machine Configuration
-
-Machine configuration is the arrangement of resources assigned to a virtual machine. Please see the docs for xref:amazon-ec2.adoc[Amazon EC2], xref:digitalocean.adoc[DigitalOcean], and xref:azure.adoc[Azure] to learn more.

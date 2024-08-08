@@ -1,3 +1,0 @@
-= Security Scans
-
-The documentation about CIS security scans has moved xref:../../how-to-guides/advanced-user-guides/cis-scan-guides/cis-scan-guides.adoc[here.]

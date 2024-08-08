@@ -1,8 +1,0 @@
-= Monitoring/Alerting Guides
-
-* xref:enable-monitoring.adoc[Enable monitoring]
-* xref:uninstall-monitoring.adoc[Uninstall monitoring]
-* xref:set-up-monitoring-for-workloads.adoc[Monitoring workloads]
-* xref:customize-grafana-dashboard.adoc[Customizing Grafana dashboards]
-* xref:create-persistent-grafana-dashboard.adoc[Persistent Grafana dashboards]
-* xref:debug-high-memory-usage.adoc[Debugging high memory usage]

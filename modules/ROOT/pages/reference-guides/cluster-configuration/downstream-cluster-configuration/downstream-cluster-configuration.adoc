@@ -1,3 +1,0 @@
-= Downstream Cluster Configuration
-
-The following docs will discuss xref:node-template-configuration/node-template-configuration.adoc[node template configuration] and xref:machine-configuration/machine-configuration.adoc[machine configuration].

@@ -1,3 +1,0 @@
-= Node Template Configuration
-
-To learn about node template config, refer to xref:amazon-ec2.adoc[EC2 Node Template Configuration], xref:digitalocean.adoc[DigitalOcean Node Template Configuration], xref:azure.adoc[Azure Node Template Configuration], xref:vsphere.adoc[vSphere Node Template Configuration], and xref:nutanix.adoc[Nutanix Node Template Configuration].
