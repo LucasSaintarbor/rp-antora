@@ -11,6 +11,7 @@ content:
     - url: https://github.com/jhkrug/kw-ad
       branches: [main]
     - url: https://github.com/LucasSaintarbor/rke2-ad
+      branches: [main]
 asciidoc:
   extensions:
   - '@asciidoctor/tabs'
