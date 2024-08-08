@@ -1,7 +1,7 @@
 site:
   title: Rancher documentation
   url: /
-  start_page: main@rancher-ad::rancher-manager.adoc
+  start_page: main@rp-antora::rancher-manager.adoc
 
 content:
     sources:
@@ -15,10 +15,10 @@ content:
 
 ui:
   bundle:
-    url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
-    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    # url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  supplemental_files: ./susecom-2023
+  # supplemental_files: ./susecom-2023
 
 asciidoc:
   extensions:
