@@ -6,8 +6,8 @@ site:
 content:
     sources:
     # url: ./
-    - url: https://github.com/LucasSaintarbor/rp-antora
-      branches: [main, v2.6, v2.7, v2.8]
+    - url: https://github.com/LucasSaintarbor/rancher-ad
+      branches: [main]
     - url: https://github.com/jhkrug/kw-ad
       branches: [main]
     - url: https://github.com/LucasSaintarbor/rke2-ad
